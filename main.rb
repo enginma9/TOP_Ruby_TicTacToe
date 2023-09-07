@@ -7,11 +7,6 @@ require_relative 'game.rb'
 # game gets passed the two players, and creates board object
 # board has function for win condition
 # board array starts at 0, but displays 1-9, so board will translate the values
-class Games
-    def run
-        return
-    end
-end
 
 the_game = Game.new()   # You've lost. 
 the_game.run()
